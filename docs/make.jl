@@ -20,7 +20,7 @@ makedocs(
     modules = [UltraNest],
     format = Documenter.HTML(
         prettyurls = !("local" in ARGS),
-        canonical = "https://bat.github.io/UltraNest.jl/stable/"
+        canonical = "https://juliabayes.org/UltraNest.jl/stable/"
     ),
     pages = [
         "Home" => "index.md",
@@ -33,7 +33,7 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/bat/UltraNest.jl.git",
+    repo = "github.com/JuliaBayes/UltraNest.jl.git",
     forcepush = true,
     push_preview = true
 )

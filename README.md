@@ -1,17 +1,17 @@
 # UltraNest.jl
 
-[![Documentation for stable version](https://img.shields.io/badge/docs-stable-blue.svg)](https://bat.github.io/UltraNest.jl/stable)
-[![Documentation for development version](https://img.shields.io/badge/docs-dev-blue.svg)](https://bat.github.io/UltraNest.jl/dev)
+[![Documentation for stable version](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliabayes.org/UltraNest.jl/stable)
+[![Documentation for development version](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliabayes.org/UltraNest.jl/dev)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
-[![Build Status](https://github.com/bat/UltraNest.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/bat/UltraNest.jl/actions/workflows/CI.yml)
-[![Codecov](https://codecov.io/gh/bat/UltraNest.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/bat/UltraNest.jl)
+[![Build Status](https://github.com/JuliaBayes/UltraNest.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/JuliaBayes/UltraNest.jl/actions/workflows/CI.yml)
+[![Codecov](https://codecov.io/gh/JuliaBayes/UltraNest.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaBayes/UltraNest.jl)
 [![Aqua QA](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 
 
 ## Documentation
 
-* [Documentation for stable version](https://bat.github.io/UltraNest.jl/stable)
-* [Documentation for development version](https://bat.github.io/UltraNest.jl/dev)
+* [Documentation for stable version](https://juliabayes.org/UltraNest.jl/stable)
+* [Documentation for development version](https://juliabayes.org/UltraNest.jl/dev)
 
 This is a Julia wrapper for Python nested sampling package
 [UltraNest](https://github.com/JohannesBuchner/UltraNest).
