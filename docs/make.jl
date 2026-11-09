@@ -5,6 +5,7 @@
 # for local builds.
 
 using Documenter
+using DocumenterCodeBlocks
 using UltraNest
 
 # Doctest setup
@@ -16,11 +17,13 @@ DocMeta.setdocmeta!(
 )
 
 makedocs(
-    sitename = "UltraNest",
+    sitename = "UltraNest.jl",
+    repo = Documenter.Remotes.GitHub("JuliaBayes", "UltraNest.jl"),
     modules = [UltraNest],
     format = Documenter.HTML(
         prettyurls = !("local" in ARGS),
-        canonical = "https://juliabayes.org/UltraNest.jl/stable/"
+        canonical = "https://juliabayes.org/UltraNest.jl/stable/",
+        edit_link = :commit,
     ),
     pages = [
         "Home" => "index.md",
@@ -29,7 +32,8 @@ makedocs(
     ],
     doctest = ("fixdoctests" in ARGS) ? :fix : true,
     linkcheck = !("nonstrict" in ARGS),
-    warnonly = ("nonstrict" in ARGS)
+    warnonly = ("nonstrict" in ARGS),
+    plugins = [CodeBlocks()],
 )
 
 deploydocs(
